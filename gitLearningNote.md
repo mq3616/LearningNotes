@@ -89,14 +89,14 @@
 # git .gitignore文件书写规则:
 	 
 	 # 此为注释 – 将被 Git 忽略
-	 *.cs     # 忽略所有 .cs 结尾的文件
-	 !ABC.cs  # 但 ABC.cs 除外
-	 /BLL     # 仅仅忽略项目根目录下的BLL文件,不包括subdir/BLL
-	build/    # 忽略 build/ 目录下的所有文件
-	doc/*.txt # 会忽略doc/notes.txt,但不包括doc/server/arch.txt
+	 *.cs      # 忽略所有 .cs 结尾的文件
+	 !ABC.cs   # 但 ABC.cs 除外
+	 /BLL      # 仅仅忽略项目根目录下的BLL文件,不包括subdir/BLL
+	 build/    # 忽略 build/ 目录下的所有文件
+	 doc/*.txt # 会忽略doc/notes.txt,但不包括doc/server/arch.txt
 
-* 自动生成网站:https://www.gitignore.io
-* git官方网站:https://github.com/github/gitignore
+* 自动生成网站: https://www.gitignore.io
+* git官方网站: https://github.com/github/gitignore
 
 
 	
